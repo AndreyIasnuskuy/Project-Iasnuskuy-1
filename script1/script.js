@@ -1,4 +1,4 @@
-//"use strict";
+"use strict";
 
 //a=15;
 //console.log(a); не працює,старий стандарт
@@ -55,7 +55,7 @@
 //console.log(arr[1]);
 
 
-alert ('Hello');
+//alert ('Hello');
 
 //const result = confirm("Are you here?");
 //console.log(result);
@@ -108,4 +108,25 @@ alert ('Hello');
 //
 //console.log(isChecked || !isClose);
 
+//Створюємо нову першу прогу
+
+const numberOfFilms = +prompt('Скільки фільмів ви уже дивились?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const a = prompt('Один з останніх переглянутих фільмів?', ''),
+      b = prompt('На скільки оцінити його?' , ''),
+      c = prompt('Один з останніх переглянутих фільмів?', ''),
+      d = prompt('На скільки оцінити його?' , '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log (personalMovieDB);
 
