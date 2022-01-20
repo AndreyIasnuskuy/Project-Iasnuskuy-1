@@ -128,7 +128,7 @@
     }
 Проверить, чтобы все работало без ошибок в консоли */
 
-const numberOfFilms = +prompt('Скільки фільмів ви уже дивились?', '');
+/*const numberOfFilms = +prompt('Скільки фільмів ви уже дивились?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -146,5 +146,42 @@ const a = prompt('Один з останніх переглянутих філь
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log (personalMovieDB);
+console.log (personalMovieDB);*/
 
+//Урок 13
+
+/*if (4 == 9) {
+    console.log('Ok');
+} else {
+    console.log('Eror');
+}
+
+const num = 50;
+
+if (num < 49) {
+    console.log('Eror');
+} else if (num > 100) {
+    console.log ('Багато');
+} else {
+    console.log('Ok');
+}
+
+const num = 50;
+(num === 50) ? console.log('Ok') : console.log('Eror');*/
+
+/*const num = 50;
+
+switch (num) {
+    case 49:
+        console.log('Невірно');
+        break;
+    case 100:
+        console.log('Невірно');   
+        break;
+    case 50:
+        console.log('В ціль');
+        break;
+    default:
+        console.log('Не цього разу');
+        break;    
+}*/
