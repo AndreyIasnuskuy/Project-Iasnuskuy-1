@@ -228,7 +228,7 @@ while (num <=55);*/
 
 4) Потренироваться и переписать цикл еще двумя способами*/
 
-const numberOfFilms = +prompt('Скільки фільмів ви уже дивились?', '');
+/*const numberOfFilms = +prompt('Скільки фільмів ви уже дивились?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -262,4 +262,84 @@ if (personalMovieDB.count <10) {
     console.log("Произошла ошибка");
 }
 
-console.log (personalMovieDB);
+console.log (personalMovieDB);*/
+
+// Урок 16 Функції
+//function declaration
+
+/*let num = 20; //Глобальна функція
+
+function showFirstMessage(text) {
+    console.log (text);
+    let num = 10; //Локальна функція
+}
+
+showFirstMessage("Hello world");
+console.log(num);*/
+
+/*function calc(a,b) {
+    return (a + b);
+}
+
+console.log(calc(4,3));
+console.log(calc(5,7));
+console.log(calc(10,6));*/
+
+
+/*function ret() {
+    let num = 50;
+
+    //
+
+
+    return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+//function expression
+
+const logger = function() {
+    console.log("Hello");
+};
+
+logger();
+
+//Стрілочна функція
+
+const calc = (a,b) => a + b ;*/
+
+// Методи та функції
+
+/*const str = "test";
+//const arr = [1, 2, 4];
+
+//console.log(str.length);//Вивід 4
+//console.log(arr.length);// Вивід 3
+//console.log(str[2]);//Вивід s
+
+console.log(str.toUpperCase());//Переводить ряд в ВЕРХНІЙ регістр
+console.log(str.toLowerCase());//Переводить ряд в нижній регістр
+console.log(str);
+
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf("fruit")); //Пошук під рядка/Вивід 5,з 5 значення починається fruit
+
+const logg = "Hello world";
+
+console.log(logg.slice(6, 11));//вивід world
+//console.log(logg.slice(6, 10));//вивід worl
+//console.log(logg.slice(-6, -1));//вивід worl
+console.log(logg.substring(6, 11));//вивід world/Мінус вик. не можна
+
+console.log(logg.substr(6, 5));//вивід world
+
+const num = 12.2;
+console.log(Math.round(num));//Вивід 12
+
+const test = "12.2px";
+console.log(parseInt(test));//Вивід 12/Метод який міняє види числення-дійкова,десяткова...
+console.log(parseFloat(test));//Вивід 12.2*/
+
