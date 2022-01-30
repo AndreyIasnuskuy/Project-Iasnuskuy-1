@@ -358,7 +358,7 @@ genres
 
 // Код возьмите из предыдущего домашнего задания
 
-P.S. Функции вызывать не обязательно*/
+P.S. Функции вызывать не обязательно
 
 let numberOfFilms;
 
@@ -431,6 +431,9 @@ rememberMyFilms();
       }
   }
 
-  writeYourGenres();
+  writeYourGenres();*/
+
+//lessons 19 call-back функції
+
 
 
