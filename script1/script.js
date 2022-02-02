@@ -435,5 +435,119 @@ rememberMyFilms();
 
 //lessons 19 call-back функції
 
+/*function first() {
+    //do something
+    setTimeout (function(){
+        console.log(1);
+    }, 500);
+}
+
+function second() {
+    console.log(2);
+}
+
+first();
+second();
+
+function learnJS(lang, callback) {
+    console.log(`Я вивчаю: ${lang}`);
+    callback();
+}
+
+function done() {
+    console.log('Я пройшов це заняття!');
+}
+
+learnJS('JavaScript', done);*/
+
+// Lesons 20
+
+/*const option = {
+    name: 'test',
+    width: 1024,
+    height: 1024,
+    colors: {
+        border: 'black',
+        bg: 'red'
+    },
+    makeTest: function() {
+        console.log("Test");
+    }
+};
+
+option.makeTest();
+
+const {border, bg} = option.colors;
+console.log(border);*/
+
+//console.log(Object.keys(option).length);
+
+/*console.log(option.name);
+
+delete option.name;
+
+console.log(option);*/
+
+//Перебираємо властивості обєкта
+/*
+let counter = 0;
+for (let key in option) {
+    if (typeof(option[key]) === 'object') {
+        for (let i in option[key]) {
+            console.log(`Властивість ${i} має значення ${option[key][i]}`);
+            counter++;
+        }
+    }else {
+        console.log(`Властивість ${key} має значення ${option[key]}`);
+        counter++;
+    }
+}
+
+console.log(counter);*/
 
 
+/*const arr = [2, 3, 6, 8, 10];
+arr.sort(compareNum);//сортування чисел по порядку
+console.log(arr);
+
+function compareNum(a,b) {
+    return a-b;
+}*/
+
+
+/*arr [99] = 0;//Так робити не правильно
+console.log(arr.length);
+console.log(arr);*/
+
+/*arr.forEach(function(item, i, arr) {
+    console.log(`${i}:${item} в седині массиву ${arr}`);
+});*/
+
+//arr.pop();
+//arr.push(10);
+
+//console.log(arr);
+//Перебирання елементів масиву
+/*for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}*/
+//Або 2 варіант виконання перебору елементів масиву
+
+/*for (let value of arr) {
+    console.log(value);
+}*/
+
+/*const str = prompt("", "");
+const products = str.split(",");//Формування із рядка в масив
+console.log(products);*/
+
+/*const str = prompt("", "");
+const products = str.split(",");
+console.log(products.join('; '));//Формування із масива в рядок*/
+
+/*const str = prompt("", "");
+const products = str.split(",");
+products.sort();//Метод сортування
+console.log(products.join('; '));*/
+
+//Урок 22
