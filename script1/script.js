@@ -643,3 +643,35 @@ const newAarray = [...array];*/
 
 const newObj = {...q};*/
 
+//Lesons 23 основи ООП...
+
+/*let str = "some";
+let strObj = new String(str);
+
+//console.log(typeof(str));
+//console.log(typeof(strObj));
+
+console.dir([1, 2, 3]);
+
+const solder = {
+    health:400,
+    armor: 200,
+    sayHello: function() {
+        console.log("Hello");
+    }
+};
+
+const jonh = Object.create(solder);//Новий метод, найбільше використ.
+
+//const jonh = {
+//    health:100
+//};
+
+//jonh.__proto__ = solder;//Старий метод
+//Нові методи
+//Object.setPrototypeOf(jonh, solder);// Встановлення прототипу
+
+//console.log(jonh.armor);
+
+jonh.sayHello();*/
+
