@@ -822,3 +822,41 @@ if (switcher) {
 
 //3)
 console.log(typeof(!!"5555"));*/
+
+//Lesons 27
+// інкремент,декремент. Префіксна і постфіксна форми.
+//let x = 5;
+//alert(x++);
+
+//[] + false - null + true ---- NaN
+/*console.log(typeof([] + false));//"false"
+console.log([] + false - null);//NaN
+console.log([] + false - null + true);//NaN*/
+
+
+
+/*let y = 1;
+let x = y = 2;
+alert(x); Вивід 2*/
+
+//[ ] + 1 + 2
+//console.log([ ] + 1 + 2);//Пустий рядок +1+2 вивід 12(вийшов рядок 12)
+
+//alert("1"[0]);//Правильно 
+
+//console.log(2 && 1 && null && 0 && undefined);//Вивід null бо логічне і зупинилось на фолс а тут перше фолс налл 
+// і "&&" зупиняється на брехні (або "||" зупиняється на правді)
+
+//console.log(!!( 1 && 2 ) === (1 && 2));
+
+alert(2 && 3);//перевіряти по таблиці пріоритетів виконання коду
+
+//const a = [1, 2, 3];
+//const b = [1, 2, 3];
+//console.log(a == b);//Не рівне
+
+//alert( +"Infinity" ); //вивід рядок Infinity
+
+//console.log("Ёжик" > "яблоко");Перевірка по таблиці юнікод
+
+//0 || "" || 2 || undefined || true || falsе//вивід 2
